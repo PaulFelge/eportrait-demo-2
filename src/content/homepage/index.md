@@ -5,7 +5,7 @@ banner:
   image: /images/banner-art.png
   button:
     label: "Foto hochladen"
-    link: "#"
+    link: "#iframe"
     enable: true
 
 # feature

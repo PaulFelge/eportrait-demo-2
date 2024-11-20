@@ -46,9 +46,9 @@ export const faqs = [
   <!-- banner -->
   <section class="section pb-[50px]">
     <div class="container">
-      <div class="row text-center">
+      <div class="text-center row">
         <div class="mx-auto lg:col-10">
-          <h1 class="font-primary font-bold">{banner?.title}</h1>
+          <h1 class="font-bold font-primary">{banner?.title}</h1>
           {
             banner?.content && (
               <p class="mt-4" set:html={markdownify(banner.content)} />
@@ -57,13 +57,14 @@ export const faqs = [
 
           {
             banner?.button?.enable && (
-              <a class="btn btn-primary mt-4">{banner.button.label}</a>
+              <a class="mt-4 btn btn-primary">{banner.button.label}</a>
             )
           }
 
           {
             banner?.image && (
               <iframe
+                id="iframe"
                 src={"https://sales-wpn-staging.eportrait.de/"}
                 class="w-full h-[700px] border-none"
                 title="Embedded content"
@@ -78,16 +79,16 @@ export const faqs = [
 
   <section class="section">
     <div class="container">
-      <h1 class="text-center font-normal">Frequently Asked Questions</h1>
+      <h1 class="font-normal text-center">Frequently Asked Questions</h1>
       <div class="section row">
         {
           faqs?.map((faq) => (
-            <div class="col-12 mt-6 md:col-6">
-              <div class="p-12  shadow">
-                <div class="faq-head relative">
+            <div class="mt-6 col-12 md:col-6">
+              <div class="p-12 shadow">
+                <div class="relative faq-head">
                   <h4 set:html={markdownify(faq.title)} />
                 </div>
-                <p class="faq-body mt-4" set:html={markdownify(faq.answer)} />
+                <p class="mt-4 faq-body" set:html={markdownify(faq.answer)} />
               </div>
             </div>
           ))
@@ -97,7 +98,7 @@ export const faqs = [
   </section>
 
   <!-- Workflow -->
-  <section class="section pb-0">
+  <section class="pb-0 section">
     <div class="mb-8 text-center">
       <h2
         class="mx-auto max-w-[400px] font-bold leading-[44px]"
