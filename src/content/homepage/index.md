@@ -1,35 +1,35 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
+  title: Die Bigspring-Gesundheitskarte
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
   image: /images/banner-art.png
   button:
-    label: "Contact Us"
-    link: "/contact"
+    label: "Foto hochladen"
+    link: "#"
     enable: true
 
 # feature
-feature: 
+feature:
   title: Something You Need To Know
   features:
-  - name: "Clean Code"
-    icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
-    icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
-    icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
-    icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Clean Code"
+      icon: "/images/code.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Object Oriented"
+      icon: "/images/oop.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "24h Service"
+      icon: "/images/user-clock.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Value for Money"
+      icon: "/images/love.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Faster Response"
+      icon: "/images/speedometer.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    - name: "Cloud Support"
+      icon: "/images/cloud.svg"
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 
 # services
 services:
@@ -46,13 +46,13 @@ services:
 
   - title: "It is a privately owned Information and cyber security company"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images: 
+    images:
       - "/images/service-slide-1.png"
     button:
       enable: true
       label: Check it out
       link: /contact
-  
+
   - title: "It’s a team of experienced and skilled people with distributions"
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
     images:
@@ -76,18 +76,18 @@ services:
       link: /contact
 
 # workflow
-workflow: 
-  title: "Experience the best workflow with us"
+workflow:
+  title: "Ihre digitale Versicherung"
   image: "/images/banner.png"
   description: ""
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
+  title: Jetzt Mitglied werden
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
-  image: '/images/cta.png'
+  image: "/images/cta.png"
   button:
     enable: true
-    label: "Contact Us"
-    link: "/contact"
+    label: "Online Mitglied werden"
+    link: "#"
 ---

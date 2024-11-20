@@ -6,53 +6,49 @@
     },
     {
       "name": "Blog",
-      "url": "/blog"
+      "url": "#"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Leistung",
+      "url": "#"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Kontakt",
+      "url": "#"
     },
     {
       "name": "FAQ",
-      "url": "/faq"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
+      "url": "#"
     }
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Unternehmen",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Über uns",
+          "url": "#"
         },
         {
-          "text": "Quick Start",
+          "text": "Mitglied werden",
           "url": "#"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Leistungen",
       "menu": [
         {
-          "text": "Features",
+          "text": "Übersicht",
           "url": "#"
         },
         {
-          "text": "Platform",
+          "text": "Gesundheit",
           "url": "#"
         },
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Digitale Services",
+          "url": "#"
         }
       ]
     },
@@ -61,15 +57,15 @@
       "menu": [
         {
           "text": "FAQ",
-          "url": "/faq"
+          "url": "#"
         },
         {
-          "text": "Privacy Policy",
-          "url": "/privacy-policy"
+          "text": "Datenschutz",
+          "url": "#"
         },
         {
-          "text": "Terms & Conditions",
-          "url": "/terms-conditions"
+          "text": "Impressum",
+          "url": "#"
         }
       ]
     }
