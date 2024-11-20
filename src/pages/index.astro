@@ -57,7 +57,9 @@ export const faqs = [
 
           {
             banner?.button?.enable && (
-              <a class="mt-4 btn btn-primary">{banner.button.label}</a>
+              <a class="mt-4 btn btn-primary" href={banner.button.link}>
+                {banner.button.label}
+              </a>
             )
           }
 
