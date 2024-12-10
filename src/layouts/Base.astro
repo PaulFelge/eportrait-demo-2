@@ -72,8 +72,21 @@ const { title, meta_title, noindex, canonical } = Astro.props;
     <!-- responsive meta -->
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0"
     />
+    <script>
+      window.addEventListener("message", ({ data }) => {
+        if (data.from === "EPORTRAIT_UI") {
+          // console.log(data); --> remove // for debugging purposes
+          if (data.height) {
+            const iframe = document.getElementById("#theIFrame");
+            if (!iframe) return;
+
+            iframe.height = data.height;
+          }
+        }
+      });
+    </script>
 
     <!-- title -->
     <title>
