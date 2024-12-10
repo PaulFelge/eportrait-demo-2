@@ -79,7 +79,7 @@ const { title, meta_title, noindex, canonical } = Astro.props;
         if (data.from === "EPORTRAIT_UI") {
           // console.log(data); --> remove // for debugging purposes
           if (data.height) {
-            const iframe = document.getElementById("#theIFrame");
+            const iframe = document.getElementById("theIFrame");
             if (!iframe) return;
 
             iframe.height = data.height;
